@@ -311,6 +311,8 @@
   #include "sanguino/pins_ANET_10.h"            // ATmega1284P                            env:sanguino_atmega1284p
 #elif MB(SETHI)
   #include "sanguino/pins_SETHI.h"              // ATmega644P, ATmega644, ATmega1284P     env:sanguino_atmega644p env:sanguino_atmega1284p
+#elif MB(GIORDY_BOARD)
+  #include "sanguino/pins_GIORDY_BOARD.h"              // ATmega1284P                            env:sanguino_atmega1284p
 
 //
 // Teensyduino - AT90USB1286, AT90USB1286P

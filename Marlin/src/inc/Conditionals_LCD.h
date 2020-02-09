@@ -81,6 +81,11 @@
   #define LCD_I2C_ADDRESS 0x27   // I2C Address of the port expander
   #define IS_ULTIPANEL
 
+#elif ENABLED(GIORDY_LCD)
+  #define LCD_I2C_TYPE_PCA8574
+  #define LCD_I2C_ADDRESS 0x3F   // I2C Address of the port expander
+  #define IS_ULTIPANEL
+
 #elif ENABLED(REPRAPWORLD_GRAPHICAL_LCD)
 
   #define DOGLCD

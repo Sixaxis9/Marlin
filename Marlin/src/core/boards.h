@@ -178,6 +178,7 @@
 #define BOARD_OMCA_A                  1608  // Alpha OMCA board
 #define BOARD_OMCA                    1609  // Final OMCA board
 #define BOARD_SETHI                   1610  // Sethi 3D_1
+#define BOARD_GIORDY_BOARD            1611  // Giordy Board "https://github.com/Sixaxis9/CNC-3Dprinter"
 
 //
 // Teensyduino - AT90USB1286, AT90USB1286P
